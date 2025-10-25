@@ -1,1 +1,164 @@
-<h1>Welcome to My Portfolio</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alishba Zainab - Portfolio/CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 40px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            margin: 0;
+            color: #2c3e50;
+        }
+        .header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #2c3e50;
+        }
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table, th, td {
+            border: 1px solid #2c3e50;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #ecf0f1;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .skills ul, .languages ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        .contact a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        @media(max-width:600px){
+            .header {
+                flex-direction: column;
+                text-align: center;
+            }
+            .header img {
+                margin-top: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div>
+                <h1>Alishba Zainab</h1>
+                <p><strong>Software Engineering Student</strong></p>
+            </div>
+            <img src="icon.jpg" alt="Profile Picture">
+        </div>
+
+        <!-- About Me -->
+        <div class="section">
+            <h2>About Me</h2>
+            <p>I am a passionate software engineering student with strong interest in web development, programming, and modern technologies. I enjoy learning new skills and building practical projects.</p>
+        </div>
+
+        <!-- Education -->
+        <div class="section">
+            <h2>Education</h2>
+            <table>
+                <tr>
+                    <th>Level</th>
+                    <th>Institute</th>
+                    <th>Board/University</th>
+                    <th>Grade/CGPA</th>
+                </tr>
+                <tr>
+                    <td>SSC</td>
+                    <td>Army Public School</td>
+                    <td>Federal Board</td>
+                    <td>A+</td>
+                </tr>
+                <tr>
+                    <td>HSSC</td>
+                    <td>Harvard College</td>
+                    <td>Federal Board</td>
+                    <td>A+</td>
+                </tr>
+                <tr>
+                    <td>Bachelor</td>
+                    <td>FJWU</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Skills -->
+        <div class="section skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML / CSS / JavaScript</li>
+                <li>Python / Java</li>
+                <li>Git & GitHub / Git LFS</li>
+                <li>Web Development & Frontend Design</li>
+                <li>Networking and Software Engineering Fundamentals</li>
+            </ul>
+        </div>
+
+        <!-- Languages -->
+        <div class="section languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>English – Fluent</li>
+                <li>Urdu – Native</li>
+            </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="section contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:alishba@example.com">alishba@example.com</a></p>
+            <p>GitHub: <a href="https://github.com/alishba">https://github.com/alishba</a></p>
+        </div>
+    </div>
+</body>
+</html>
